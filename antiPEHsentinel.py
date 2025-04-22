@@ -598,6 +598,7 @@ while user_selection != "exit":
         user_selection = input("[*] Please input your selection: ")
     elif user_selection == "help":
         menu()
+        user_selection = input("[*] Please input your selection: ")
     elif user_selection == "exit":
         sys.exit(0)
         user_selection = input("[*] Please input your selection: ")
