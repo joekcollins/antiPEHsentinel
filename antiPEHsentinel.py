@@ -600,6 +600,7 @@ while user_selection != "exit":
         menu()
     elif user_selection == "exit":
         sys.exit(0)
+        user_selection = input("[*] Please input your selection: ")
     else:
         print("[!] Unexpected Error!!")
         user_selection = input("[*] Please input your selection: ")
